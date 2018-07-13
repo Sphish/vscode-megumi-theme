@@ -1,0 +1,24 @@
+{
+    "name": "megumi",
+    "version": "0.0.1",
+    "displayName": "Megumi Theme",
+    "description": "For Katou Megumi",
+    "publisher": "Sphish",
+    "repository": "https://github.com/sphish",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Megumi",
+                "uiTheme": "vs-dark",
+                "path": "./theme/megumi.json"
+            }
+        ]
+    }
+}
